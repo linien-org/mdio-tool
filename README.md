@@ -11,4 +11,10 @@ Syntax:
 	./mdio-tool w eth0 0x10 0x0
 	./mdio-tool r eth0 0x0
 
+Build with
 
+```bash
+cmake .
+make
+mv -f mdio-tool /usr/bin
+```
